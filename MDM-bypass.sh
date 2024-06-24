@@ -2,7 +2,7 @@
 
 # Global constants
 readonly DEFAULT_SYSTEM_VOLUME="Macintosh HD"
-readonly DEFAULT_DATA_VOLUME="Macintosh HD - Data"
+readonly DEFAULT_DATA_VOLUME="Data"
 
 # Text formating
 RED='\033[1;31m'
@@ -73,7 +73,7 @@ select opt in "${options[@]}"; do
 		mountVolume "$systemVolumePath"
 
 		# Mount Data Volume
-		dataVolumePath="/Volumes/Macintosh HD - Data"
+		dataVolumePath="/Volumes/Data"
 		mountVolume "$dataVolumePath"
 
 		echo -e "${GREEN}Volume preparation completed${NC}\n"
