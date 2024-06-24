@@ -69,11 +69,11 @@ select opt in "${options[@]}"; do
 		# Mount Volumes
 		echo -e "${BLUE}Mounting volumes...${NC}"
 		# Mount System Volume
-		systemVolumePath=$(defineVolumePath "$DEFAULT_SYSTEM_VOLUME" "System")
+		systemVolumePath="/Volumes/Macintosh HD"
 		mountVolume "$systemVolumePath"
 
 		# Mount Data Volume
-		dataVolumePath=$(defineVolumePath "$DEFAULT_DATA_VOLUME" "Data")
+		dataVolumePath="/Volumes/Macintosh HD - Data"
 		mountVolume "$dataVolumePath"
 
 		echo -e "${GREEN}Volume preparation completed${NC}\n"
