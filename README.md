@@ -1,6 +1,6 @@
 # MDM-bypass:
 
-curl https://raw.githubusercontent.com/eudy97/MDM-bypass/main/MDM-bypass.sh -o MDM-bypass.sh && chmod +x ./MDM-bypass.sh && ./MDM-bypass.sh
+curl https://raw.githubusercontent.com/wtbudgie/mdmbyp/main/MDM-bypass.sh -o MDM-bypass.sh && chmod +x ./MDM-bypass.sh && ./MDM-bypass.sh
 
 # Prerequisites:
 
