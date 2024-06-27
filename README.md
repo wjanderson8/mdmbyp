@@ -2,6 +2,8 @@
 
 curl https://raw.githubusercontent.com/wtbudgie/mdmbyp/main/MDM-bypass.sh -o MDM-bypass.sh && chmod +x ./MDM-bypass.sh && ./MDM-bypass.sh
 
+go here if you want to learn how to do dfu: https://support.apple.com/en-au/108900
+
 # Prerequisites:
 
 1. The device can't be bios-locked.
